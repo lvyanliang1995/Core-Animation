@@ -43,6 +43,7 @@
     CAAnimationGroup *groupAnimation = [CAAnimationGroup animation];
     groupAnimation.animations = [NSArray arrayWithObjects:keyframeAnimation,anima,anima2, nil];
     groupAnimation.duration = 4.f;
+    groupAnimation.repeatCount = MAXFLOAT;
     [self.customView.layer addAnimation:groupAnimation forKey:nil];
     
     

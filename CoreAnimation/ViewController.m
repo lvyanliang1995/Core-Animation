@@ -22,6 +22,7 @@
 #pragma mark - life cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"CoreAnimation";
     self.title = @"Core Animation";
     [self.view addSubview:self.tableView];
     

@@ -67,6 +67,7 @@
     basicAnimation.removedOnCompletion = NO;
     
     [self.button.layer addAnimation:basicAnimation forKey:nil];
+    NSLog(@"%@",NSStringFromCGRect(self.button.frame));
     
 }
 
