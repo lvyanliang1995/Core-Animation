@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C01B4D1D21533C6E00571E9B /* animationGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01B4D1B21533C6E00571E9B /* animationGroupViewController.m */; };
+		C01B4D1E21533C6E00571E9B /* animationGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01B4D1C21533C6E00571E9B /* animationGroupViewController.xib */; };
+		C01B4D24215348D600571E9B /* transitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C01B4D22215348D600571E9B /* transitionViewController.m */; };
+		C01B4D25215348D600571E9B /* transitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C01B4D23215348D600571E9B /* transitionViewController.xib */; };
 		C0DBA8AA2152799A0092B4D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DBA8A92152799A0092B4D0 /* AppDelegate.m */; };
 		C0DBA8AD2152799A0092B4D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DBA8AC2152799A0092B4D0 /* ViewController.m */; };
 		C0DBA8B02152799A0092B4D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0DBA8AE2152799A0092B4D0 /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 		C0DBA8B82152799B0092B4D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DBA8B72152799B0092B4D0 /* main.m */; };
 		C0DBA8C22152799C0092B4D0 /* CoreAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DBA8C12152799C0092B4D0 /* CoreAnimationTests.m */; };
 		C0DBA8CD2152799C0092B4D0 /* CoreAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DBA8CC2152799C0092B4D0 /* CoreAnimationUITests.m */; };
+		C0DBA8E2215280E30092B4D0 /* baseAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DBA8E0215280E30092B4D0 /* baseAnimationViewController.m */; };
+		C0DBA8E3215280E30092B4D0 /* baseAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0DBA8E1215280E30092B4D0 /* baseAnimationViewController.xib */; };
+		C0DBA8E82152943A0092B4D0 /* keyframeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DBA8E62152943A0092B4D0 /* keyframeAnimationViewController.m */; };
+		C0DBA8E92152943A0092B4D0 /* keyframeAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0DBA8E72152943A0092B4D0 /* keyframeAnimationViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C01B4D1A21533C6E00571E9B /* animationGroupViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = animationGroupViewController.h; sourceTree = "<group>"; };
+		C01B4D1B21533C6E00571E9B /* animationGroupViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = animationGroupViewController.m; sourceTree = "<group>"; };
+		C01B4D1C21533C6E00571E9B /* animationGroupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = animationGroupViewController.xib; sourceTree = "<group>"; };
+		C01B4D21215348D600571E9B /* transitionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = transitionViewController.h; sourceTree = "<group>"; };
+		C01B4D22215348D600571E9B /* transitionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = transitionViewController.m; sourceTree = "<group>"; };
+		C01B4D23215348D600571E9B /* transitionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = transitionViewController.xib; sourceTree = "<group>"; };
 		C0DBA8A52152799A0092B4D0 /* CoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0DBA8A82152799A0092B4D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C0DBA8A92152799A0092B4D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +65,12 @@
 		C0DBA8C82152799C0092B4D0 /* CoreAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0DBA8CC2152799C0092B4D0 /* CoreAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationUITests.m; sourceTree = "<group>"; };
 		C0DBA8CE2152799C0092B4D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0DBA8DF215280E30092B4D0 /* baseAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = baseAnimationViewController.h; sourceTree = "<group>"; };
+		C0DBA8E0215280E30092B4D0 /* baseAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = baseAnimationViewController.m; sourceTree = "<group>"; };
+		C0DBA8E1215280E30092B4D0 /* baseAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = baseAnimationViewController.xib; sourceTree = "<group>"; };
+		C0DBA8E52152943A0092B4D0 /* keyframeAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = keyframeAnimationViewController.h; sourceTree = "<group>"; };
+		C0DBA8E62152943A0092B4D0 /* keyframeAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = keyframeAnimationViewController.m; sourceTree = "<group>"; };
+		C0DBA8E72152943A0092B4D0 /* keyframeAnimationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = keyframeAnimationViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +98,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C01B4D1821533C3A00571E9B /* CAAnimationGroup */ = {
+			isa = PBXGroup;
+			children = (
+				C01B4D1921533C4A00571E9B /* ViewController */,
+			);
+			path = CAAnimationGroup;
+			sourceTree = "<group>";
+		};
+		C01B4D1921533C4A00571E9B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C01B4D1A21533C6E00571E9B /* animationGroupViewController.h */,
+				C01B4D1B21533C6E00571E9B /* animationGroupViewController.m */,
+				C01B4D1C21533C6E00571E9B /* animationGroupViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C01B4D1F2153483300571E9B /* CATransition */ = {
+			isa = PBXGroup;
+			children = (
+				C01B4D202153489D00571E9B /* ViewController */,
+			);
+			path = CATransition;
+			sourceTree = "<group>";
+		};
+		C01B4D202153489D00571E9B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C01B4D21215348D600571E9B /* transitionViewController.h */,
+				C01B4D22215348D600571E9B /* transitionViewController.m */,
+				C01B4D23215348D600571E9B /* transitionViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		C0DBA89C2152799A0092B4D0 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +157,7 @@
 		C0DBA8A72152799A0092B4D0 /* CoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				C0DBA8DA21527F040092B4D0 /* Core */,
 				C0DBA8A82152799A0092B4D0 /* AppDelegate.h */,
 				C0DBA8A92152799A0092B4D0 /* AppDelegate.m */,
 				C0DBA8AB2152799A0092B4D0 /* ViewController.h */,
@@ -130,6 +187,37 @@
 				C0DBA8CE2152799C0092B4D0 /* Info.plist */,
 			);
 			path = CoreAnimationUITests;
+			sourceTree = "<group>";
+		};
+		C0DBA8DA21527F040092B4D0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C01B4D1F2153483300571E9B /* CATransition */,
+				C01B4D1821533C3A00571E9B /* CAAnimationGroup */,
+				C0DBA8E42152941D0092B4D0 /* CAKeyframeAnimation */,
+				C0DBA8DB21527F0F0092B4D0 /* CABaseAnimation */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C0DBA8DB21527F0F0092B4D0 /* CABaseAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C0DBA8DF215280E30092B4D0 /* baseAnimationViewController.h */,
+				C0DBA8E0215280E30092B4D0 /* baseAnimationViewController.m */,
+				C0DBA8E1215280E30092B4D0 /* baseAnimationViewController.xib */,
+			);
+			path = CABaseAnimation;
+			sourceTree = "<group>";
+		};
+		C0DBA8E42152941D0092B4D0 /* CAKeyframeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				C0DBA8E52152943A0092B4D0 /* keyframeAnimationViewController.h */,
+				C0DBA8E62152943A0092B4D0 /* keyframeAnimationViewController.m */,
+				C0DBA8E72152943A0092B4D0 /* keyframeAnimationViewController.xib */,
+			);
+			path = CAKeyframeAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +323,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C01B4D25215348D600571E9B /* transitionViewController.xib in Resources */,
 				C0DBA8B52152799B0092B4D0 /* LaunchScreen.storyboard in Resources */,
+				C0DBA8E92152943A0092B4D0 /* keyframeAnimationViewController.xib in Resources */,
 				C0DBA8B22152799B0092B4D0 /* Assets.xcassets in Resources */,
+				C0DBA8E3215280E30092B4D0 /* baseAnimationViewController.xib in Resources */,
+				C01B4D1E21533C6E00571E9B /* animationGroupViewController.xib in Resources */,
 				C0DBA8B02152799A0092B4D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +354,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C01B4D24215348D600571E9B /* transitionViewController.m in Sources */,
 				C0DBA8AD2152799A0092B4D0 /* ViewController.m in Sources */,
 				C0DBA8B82152799B0092B4D0 /* main.m in Sources */,
+				C0DBA8E2215280E30092B4D0 /* baseAnimationViewController.m in Sources */,
+				C01B4D1D21533C6E00571E9B /* animationGroupViewController.m in Sources */,
+				C0DBA8E82152943A0092B4D0 /* keyframeAnimationViewController.m in Sources */,
 				C0DBA8AA2152799A0092B4D0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
